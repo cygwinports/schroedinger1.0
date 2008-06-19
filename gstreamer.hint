@@ -1,0 +1,8 @@
+category: Video
+requires: cygwin glib2 gstreamer010 gstreamer010-plugins-base liboil03 libschroedinger1.0
+external-source: libschroedinger1.0
+sdesc: "Dirac video codec (development)"
+ldesc: "Dirac is a open and royalty free high quality codec developed by 
+BBC Research and Innovation. You find more information about the Dirac 
+codec on the Dirac homepage. Schrodinger is an alternative Dirac 
+decoder."
