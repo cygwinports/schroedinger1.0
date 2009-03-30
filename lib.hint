@@ -1,6 +1,6 @@
 category: Video
-requires: cygwin liboil03
-external-source: libschroedinger1.0
+requires: cygwin libgcc1 liboil0.3_0
+external-source: schroedinger1.0
 sdesc: "Dirac video codec (runtime)"
 ldesc: "Dirac is a open and royalty free high quality codec developed by 
 BBC Research and Innovation. You find more information about the Dirac 

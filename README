@@ -1,29 +1,30 @@
-libschroedinger1.0
+schroedinger1.0
 ------------------------------------------
 Dirac is a open and royalty free high quality codec developed by BBC 
 Research and Innovation. You find more information about the Dirac codec 
 on the Dirac homepage. Schrodinger is an alternative Dirac decoder.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  liboil03-0.3.14-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  liboil0.3_0-0.3.15-10
 (gstreamer plugin)
-  glib2-2.16.4-1
-  gstreamer010-0.10.20-1
-  gstreamer010-plugins-base-0.10.20-1
+  libglib2.0_0-2.20.0-1
+  libgstreamer0.10_0-0.10.22-10
+  libgstvideo0.10_0-0.10.22-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.62-1
-  automake1.9-1.9.6-2
-  binutils-20080523-1
-  cygport-0.3.12-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gnome-common-2.20.0-2
-  gtk-doc-1.10-1
-  libtool-2.2.2-2
-  make-3.81-1
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-1
+  gtk-doc-1.11-2
+  libtool-2.2.7a-11
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -36,18 +37,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libschroedinger1.0-1.0.5-X-src.tar.bz2
+  unpack schroedinger1.0-1.0.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libschroedinger1.0-1.0.5-X.cygport all
+  cygport ./schroedinger1.0-1.0.5-X.cygport all
 
 This will create:
   /usr/src/gstreamer010-plugins-schroedinger-1.0.5-X.tar.bz2
-  /usr/src/libschroedinger1.0-1.0.5-X-src.tar.bz2
-  /usr/src/libschroedinger1.0-1.0.5-X.tar.bz2
   /usr/src/libschroedinger1.0_0-1.0.5-X.tar.bz2
   /usr/src/libschroedinger1.0-devel-1.0.5-X.tar.bz2
+  /usr/src/schroedinger1.0-1.0.5-X-src.tar.bz2
 
 -------------------------------------------
 
@@ -55,10 +55,10 @@ Files included in the binary packages:
 
 (libschroedinger1.0_0)
   /usr/bin/cygschroedinger-1.0-0.dll
-  /usr/share/doc/libschroedinger1.0-1.0.5/AUTHORS
-  /usr/share/doc/libschroedinger1.0-1.0.5/COPYING
-  /usr/share/doc/libschroedinger1.0-1.0.5/NEWS
-  /usr/share/doc/libschroedinger1.0-1.0.5/TODO
+  /usr/share/doc/schroedinger1.0/AUTHORS
+  /usr/share/doc/schroedinger1.0/COPYING
+  /usr/share/doc/schroedinger1.0/NEWS
+  /usr/share/doc/schroedinger1.0/TODO
 
 (libschroedinger1.0-devel)
   /usr/include/schroedinger-1.0/schroedinger/schro-stdint.h
@@ -93,6 +93,7 @@ Files included in the binary packages:
   /usr/include/schroedinger-1.0/schroedinger/schroutils.h
   /usr/include/schroedinger-1.0/schroedinger/schrovideoformat.h
   /usr/include/schroedinger-1.0/schroedinger/schrowavelet.h
+  /usr/lib/libschroedinger-1.0.a
   /usr/lib/libschroedinger-1.0.dll.a
   /usr/lib/libschroedinger-1.0.la
   /usr/lib/pkgconfig/schroedinger-1.0.pc
@@ -136,7 +137,7 @@ Files included in the binary packages:
   /usr/share/gtk-doc/html/schroedinger/style.css
   /usr/share/gtk-doc/html/schroedinger/up.png
 
-(gstreamer010-plugins-schroedinger)
+(gstreamer0.10-plugins-schroedinger)
   /usr/lib/gstreamer-0.10/cyggstschro.dll
   /usr/lib/gstreamer-0.10/libgstschro.la
 
@@ -144,11 +145,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.0.5-1 -----
-Version bump.
-
------ version 1.0.3-1 -----
-Initial release for Cygwin.
+----- version 1.0.5-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
