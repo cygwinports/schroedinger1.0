@@ -1,5 +1,5 @@
 category: Video
-requires: cygwin liboil0.3-devel libschroedinger1.0_0
+requires: liboil0.3-devel libschroedinger1.0_0
 external-source: schroedinger1.0
 sdesc: "Dirac video codec (development)"
 ldesc: "Dirac is a open and royalty free high quality codec developed by 

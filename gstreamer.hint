@@ -1,5 +1,5 @@
 category: Video
-requires: cygwin libgcc1 libglib2.0_0 libgstreamer0.10_0 libgstvideo0.10_0 liboil0.3_0 libschroedinger1.0_0
+requires: libgcc1 libglib2.0_0 libgstreamer0.10_0 libgstvideo0.10_0 liboil0.3_0 libschroedinger1.0_0
 external-source: schroedinger1.0
 sdesc: "Dirac video codec (development)"
 ldesc: "Dirac is a open and royalty free high quality codec developed by 
