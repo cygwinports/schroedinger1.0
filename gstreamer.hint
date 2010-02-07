@@ -1,8 +1,0 @@
-category: Video
-requires: libgcc1 libglib2.0_0 libgstreamer0.10_0 liboil0.3_0 libschroedinger1.0_0
-external-source: schroedinger1.0
-sdesc: "Dirac video codec (development)"
-ldesc: "Dirac is a open and royalty free high quality codec developed by 
-BBC Research and Innovation. You find more information about the Dirac 
-codec on the Dirac homepage. Schrodinger is an alternative Dirac 
-decoder."
