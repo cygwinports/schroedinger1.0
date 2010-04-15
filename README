@@ -7,14 +7,14 @@ on the Dirac homepage. Schrodinger is an alternative Dirac decoder.
 Runtime requirements:
   cygwin-1.7.1-1
   libgcc1-4.3.4-3
-  liboil0.3_0-0.3.16-1
+  liborc0.4_0-0.4.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.65-1
-  automake1.10-1.10.3-1
+  automake1.11-1.11.1-1
   binutils-2.19.51-1
-  cygport-0.9.80-1
+  cygport-0.9.81-1
   gawk-3.1.7-1
   gcc4-core-4.3.4-3
   gnome-common-2.28.0-1
@@ -33,20 +33,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack schroedinger1.0-1.0.8-X-src.tar.bz2
+  unpack schroedinger1.0-1.0.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./schroedinger1.0-1.0.8-X.cygport all
+  cygport ./schroedinger1.0-1.0.9-X.cygport all
 
 This will create:
-  /usr/src/libschroedinger1.0_0-1.0.8-X.tar.bz2
-  /usr/src/libschroedinger1.0-devel-1.0.8-X.tar.bz2
-  /usr/src/schroedinger1.0-1.0.8-X-src.tar.bz2
+  /usr/src/libschroedinger1.0_0-1.0.9-X.tar.bz2
+  /usr/src/libschroedinger1.0-devel-1.0.9-X.tar.bz2
+  /usr/src/schroedinger1.0-1.0.9-X-src.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 1.0.9-1 -----
+Version bump.
 
 ----- version 1.0.8-1 -----
 Version bump.
