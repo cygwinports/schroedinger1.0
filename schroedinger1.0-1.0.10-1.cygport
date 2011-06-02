@@ -4,8 +4,9 @@ inherit gnome2
 DESCRIPTION="Schrodinger Dirac codec"
 HOMEPAGE="http://www.diracvideo.org/"
 SRC_URI="http://www.diracvideo.org/download/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+PATCH_URI="1.0.10-disable-testsuite.patch"
 
-PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel"
+PKG_NAMES="lib${PN}_0 lib${PN}-devel"
 libschroedinger1_0_0_CONTENTS="usr/bin/cyg${ORIG_PN}-${PV_MAJ_MIN}-0.dll usr/share/doc/"
 libschroedinger1_0_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
 

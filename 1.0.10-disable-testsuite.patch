@@ -1,0 +1,12 @@
+The testsuite does not build with the latest orc
+
+--- origsrc/schroedinger-1.0.10/Makefile.am	2010-09-22 15:32:47.000000000 -0500
++++ src/schroedinger-1.0.10/Makefile.am	2011-06-02 03:24:19.725521700 -0500
+@@ -1,6 +1,6 @@
+ AUTOMAKE_OPTIONS = foreign
+ 
+-SUBDIRS = schroedinger doc tools testsuite
++SUBDIRS = schroedinger doc tools
+ 
+ DISTCHECK_CONFIGURE_FLAGS=--enable-gtk-doc
+ 
