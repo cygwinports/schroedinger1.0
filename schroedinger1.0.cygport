@@ -11,9 +11,11 @@ SRC_URI="http://www.diracvideo.org/download/schroedinger/schroedinger-${VERSION}
 SRC_DIR="schroedinger-${VERSION}"
 PATCH_URI="01-testsuite-build.patch"
 
-PKG_NAMES="lib${PN}_0 lib${PN}-devel"
+PKG_NAMES="lib${NAME}_0 lib${NAME}-devel lib${NAME}-doc"
 libschroedinger1_0_0_CONTENTS="usr/bin/cygschroedinger-1.0-0.dll usr/share/doc/"
-libschroedinger1_0_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+libschroedinger1_0_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
+libschroedinger1_0_doc_CATEGORY="Doc"
+libschroedinger1_0_doc_CONTENTS="usr/share/gtk-doc/"
 
 ACLOCAL_FLAGS="-I m4"
 
