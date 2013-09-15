@@ -1,7 +1,7 @@
 NAME="schroedinger1.0"
 VERSION=1.0.11
 RELEASE=1
-CATEGORY="Video"
+CATEGORY="Libs"
 SUMMARY="Schrodinger Dirac video codec"
 DESCRIPTION="Dirac is a open and royalty free high quality codec developed by
 BBC Research and Innovation. You find more information about the Dirac codec on
